@@ -3,10 +3,10 @@ require("dotenv").config();
 
 const client = mysql.createPool({
   connectionLimit: 5,
-  host: airbnb.ct0ai2w9hlpl.us-east-1.rds.amazonaws.com,
-  user: admin,
-  password: rootroot,
-  database: airbnb,
+  host: "airbnb.ct0ai2w9hlpl.us-east-1.rds.amazonaws.com",
+  user: "admin",
+  password: "rootroot",
+  database: "airbnb",
   port: 3306
 });
 
